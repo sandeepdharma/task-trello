@@ -1,0 +1,524 @@
+
+    $border: 1px solid none;
+
+    .ant-card .ant-card-body {
+        padding: 0%;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .ant-list-item {
+        border: none;
+    }
+
+    .section-title {
+        color: #172b4d;
+    }
+
+    .ant-space-item p {
+        margin: 0%;
+    }
+
+    .ant-modal .ant-modal-content {
+        background-color: rgb(243, 243, 243);
+        overflow: auto;
+        border-radius: 4px
+    }
+
+    .pop-up-main-section {
+        p {
+            margin: 0%;
+            color: #5e6c84;
+            font-size: 12px;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .ant-typography {
+            margin: 0%;
+        }
+
+        .ant-btn {
+            background-color: rgba(15, 25, 44, 0.039);
+        }
+
+        background-color: rgba(243, 243, 243, 0.774);
+        border: $border;
+
+        .listnametitle {
+            margin-top: 0%;
+            border: $border;
+            margin-bottom: 0%;
+        }
+
+        .back {
+            border: $border;
+            text-decoration: underline;
+            color: #5e6c84;
+        }
+
+        .pop-up-sub-section {
+            border: $border;
+            display: flex;
+
+            .pop-up-left-section {
+                border: $border;
+                width: 75%;
+
+                .pop-up-label-and-date-section {
+                    border: $border;
+                    margin-top: 2%;
+
+                    .members-section {
+                        display: flex;
+
+                        .members-icon-container {
+                            border: $border;
+                            width: 6%;
+                        }
+
+                        .memebers-content-section {
+                            border: $border;
+
+                            .pop-up-members-section {
+                                border: $border;
+                                display: flex;
+
+                                .pop-up-members {
+                                    width: 30px;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    border-radius: 50%;
+                                    font-size: 15px;
+                                    color: white;
+                                    text-align: center;
+                                    background: rgb(3, 94, 3)
+                                }
+
+                                .pop-up-members-icon {
+                                    width: 35px;
+                                    height: 35px;
+                                    margin-top: 15%;
+                                    color: rgb(165, 163, 163);
+
+                                }
+                            }
+                        }
+                    }
+
+                    .label-section {
+                        display: flex;
+                        border: $border;
+
+                        .label-icon-section {
+                            border: $border;
+                            width: 6%;
+                        }
+
+                        .label-content-section {
+                            border: $border;
+
+                            .pop-up-label-section {
+                                border: $border;
+                                display: flex;
+                                flex-wrap: wrap;
+
+                                .pop-up-label-icon {
+                                    color: rgb(165, 163, 163);
+                                    border: $border;
+                                    font-size: 34px;
+                                }
+                            }
+                        }
+                    }
+
+                    .date-section {
+                        display: flex;
+                        border: $border;
+
+                        .date-icon-section {
+                            border: $border;
+                            width: 6%;
+                        }
+
+                        .date-content-section {
+                            border: $border;
+                        }
+                    }
+
+                }
+
+                .description-section {
+                    border: $border;
+                    display: flex;
+                    margin-top: 2%;
+
+                    .description-icon-section {
+                        border: $border;
+                        width: 6%;
+                    }
+
+                    .description-content-section {
+                        border: $border;
+                        flex-grow: 1;
+
+                        .description-edit-button {
+                            margin-left: 1%;
+                            padding: 0% 2%;
+                        }
+
+                        .ant-input {
+                            border: 2px solid #0079bf;
+                        }
+
+                        .description-submit-section {
+                            border: $border;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+                        .description-paragraph {
+                            border: $border;
+                            padding: 1% 0%;
+
+                            font-family: sans-serif;
+                        }
+
+                    }
+                }
+
+                .attachment-section {
+                    border: $border;
+                    display: flex;
+                    margin-top: 2%;
+
+                    .attachment-icon-section {
+                        border: $border;
+                        width: 6%;
+                    }
+
+                    .attachment-content-section {
+                        border: $border;
+                        flex-grow: 1;
+
+                        .link-section {
+                            display: flex;
+                            border: $border;
+
+                            .link-image {
+                                border: $border;
+                                color: #dbdcdf;
+                                border: $border;
+                                background-color: #5e6c84;
+                                width: 115px;
+                                height: 75px;
+                                line-height: 70px;
+                                font-size: 15px;
+                                text-align: center;
+
+                            }
+
+                            .link-matter {
+                                padding-left: 2%;
+                                padding-top: 2%;
+
+                                .attachment-link {
+                                    font-weight: bold;
+                                    color: #172b4d;
+                                }
+
+                                a {
+                                    text-decoration: underline;
+                                    color: #5e6c84;
+                                }
+                            }
+                        }
+
+                        .ant-btn {
+                            margin-top: 0.8%;
+                            padding: 0% 0.6%;
+                        }
+                    }
+
+                }
+
+                .checklist-section {
+                    border: $border;
+                    display: flex;
+                    margin-top: 2%;
+
+                    .checklist-icon-section {
+                        border: $border;
+                        width: 6%;
+                    }
+
+                    .checklist-content-section {
+                        border: $border;
+                        flex-grow: 1;
+
+                        .checklist-title-section {
+                            border: $border;
+                            display: flex;
+                            justify-content: space-between;
+
+                        }
+
+                        .ant-list-item {
+                            border: $border;
+                            padding: 1%;
+
+                            .ant-checkbox-wrapper {
+                                width: 100%;
+                                border: $border;
+
+                                .checklist-item-container {
+                                    border: $border;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    .check-matter {
+                                        border: $border;
+                                        width: 400px;
+                                    }
+
+                                    .hider {
+
+                                        border: $border;
+
+                                        .hide-icon {
+                                            background-color: none;
+                                            font-size: 20px;
+                                            border: $border;
+                                            color: #5e6c84;
+                                        }
+
+                                        .hide-icon:hover {
+                                            color: #0079bf;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                        .ant-input {
+                            border: 2px solid #0079bf;
+                        }
+
+                    }
+
+                    .checklist-submit-section {
+                        border: $border;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .btn-primary {
+                            background-color: #0079bf;
+                        }
+
+                        button {
+                            border: $border;
+
+                            text-decoration-color: black;
+                            text-decoration: underline;
+
+                            a {
+                                color: #5e6c84;
+                            }
+                        }
+                    }
+                }
+
+                .activity-section {
+                    border: $border;
+                    display: flex;
+                    margin-top: 2%;
+
+                    .activity-icon-section {
+                        border: $border;
+                        width: 6%;
+
+                    }
+
+                    .activity-content-section {
+
+                        border: $border;
+                        flex-grow: 1;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                }
+
+                .activity-input-section {
+                    border: $border;
+                    display: flex;
+                    margin-top: 2%;
+
+                    .activity-input-icon-section {
+                        border: $border;
+                        width: 6%;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        border-radius: 50%;
+                        font-size: 15px;
+                        color: white;
+                        text-align: center;
+                        background: rgb(3, 94, 3)
+                    }
+
+                    .ant-form {
+                        border: $border;
+                        flex-grow: 1;
+
+                        .ant-form-item {
+                            margin: 0%;
+                        }
+
+                        .ant-input {
+                            border: $border;
+                            border-color: white;
+                        }
+
+                        .activity-submit-section {
+                            background-color: white;
+                            border: $border;
+                            padding: 1%;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .btn-primary {
+                                background-color: #0079bf;
+                            }
+
+                            button {
+                                border-color: transparent;
+                                background-color: transparent;
+
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+
+        .activity-status {
+            border: $border;
+            display: flex;
+            margin-top: 2%;
+            padding: 0%;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+
+            .activity-status-icon {
+
+                border: $border;
+                width: 6%;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 50%;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                background: rgb(3, 94, 3)
+            }
+
+            .activity-status-content {
+                border: $border;
+                padding-left: 1%;
+                flex-grow: 1;
+
+                .activity-status-matter {
+                    border: 1px solid #dbdcdf;
+                    border-radius: 5px;
+                    min-height: 30px;
+                    background-color: white;
+                    padding: 1%;
+                }
+
+                .activity-status-options-section {
+                    border: $border;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+
+                    .activity-status-options-icons {
+                        font-size: 11px;
+                    }
+
+                    p {
+                        font-size: 11px;
+                        padding-left: 2%;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .overlinestyle {
+        text-decoration: line-through;
+    }
+
+    .disableoverline {
+        text-decoration: none;
+    }
+
+    .ant-list-item:hover {
+        box-shadow: 0 0 4px #eee;
+    }
+
+    .hider {
+        visibility: hidden;
+
+    }
+
+    .checklist-item-container:hover .hider {
+        visibility: visible;
+    }
+
+    .date-check-container {
+        border: $border;
+    }
+
+    .danger {
+        display: inline-block;
+        background-color: red;
+        color: white;
+        width: 60px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+    .warning {
+        display: inline-block;
+        background-color: rgb(196, 196, 10);
+        color: black;
+        width: 60px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 10px;
+        // margin-left: 3%;
+    }
+
+    .success {
+        display: inline-block;
+        background-color: rgb(31, 168, 3);
+        color: white;
+        width: 60px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 10px;
+    }
